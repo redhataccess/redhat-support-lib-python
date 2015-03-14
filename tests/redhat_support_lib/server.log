@@ -1,0 +1,160 @@
+20:32:44,278 INFO  [org.jboss.modules] (main) JBoss Modules version 1.2.0.Final-redhat-1
+20:32:44,780 INFO  [org.jboss.msc] (main) JBoss MSC version 1.0.4.GA-redhat-1
+20:32:44,856 INFO  [org.jboss.as] (MSC service thread 1-8) JBAS015899: JBoss EAP 6.1.0.GA (AS 7.2.0.Final-redhat-8) starting
+20:32:44,866 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/kroberts/Programs/jbdevstudio/runtimes/jboss-eap/jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.7.0_45-mockbuild_2013_10_16_17_47-b00
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_45
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 24.45-b08
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.home.dir = /home/kroberts/Programs/jbdevstudio/runtimes/jboss-eap
+	jboss.host.name = whiplash
+	jboss.modules.dir = /home/kroberts/Programs/jbdevstudio/runtimes/jboss-eap/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = whiplash
+	jboss.qualified.host.name = whiplash
+	jboss.server.base.dir = /home/kroberts/Programs/jbdevstudio/runtimes/jboss-eap/standalone
+	jboss.server.config.dir = /home/kroberts/Programs/jbdevstudio/runtimes/jboss-eap/standalone/configuration
+	jboss.server.data.dir = /home/kroberts/Programs/jbdevstudio/runtimes/jboss-eap/standalone/data
+	jboss.server.deploy.dir = /home/kroberts/Programs/jbdevstudio/runtimes/jboss-eap/standalone/data/content
+	jboss.server.log.dir = /home/kroberts/Programs/jbdevstudio/runtimes/jboss-eap/standalone/log
+	jboss.server.name = whiplash
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/kroberts/Programs/jbdevstudio/runtimes/jboss-eap/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/kroberts/Programs/jbdevstudio/runtimes/jboss-eap/standalone/configuration/logging.properties
+	module.path = /home/kroberts/Programs/jbdevstudio/runtimes/jboss-eap/modules
+	org.jboss.boot.log.file = /home/kroberts/Programs/jbdevstudio/runtimes/jboss-eap/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 3.11.9-200.fc19.x86_64
+	path.separator = :
+	program.name = JBossTools: jboss-eap
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/netx.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/plugin.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/rhino.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp /home/kroberts/Programs/jbdevstudio/runtimes/jboss-eap/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = /home/kroberts/Programs/jbdevstudio/runtimes/jboss-eap/bin
+	user.home = /home/kroberts
+	user.language = en
+	user.name = kroberts
+	user.timezone = America/New_York
+20:32:44,869 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -Dprogram.name=JBossTools: jboss-eap -Xms1303m -Xmx1303m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/kroberts/Programs/jbdevstudio/runtimes/jboss-eap/standalone/log/boot.log -Dlogging.configuration=file:/home/kroberts/Programs/jbdevstudio/runtimes/jboss-eap/standalone/configuration/logging.properties -Djboss.home.dir=/home/kroberts/Programs/jbdevstudio/runtimes/jboss-eap -Dorg.jboss.logmanager.nocolor=true -Dfile.encoding=UTF-8 
+20:32:47,529 DEBUG [org.jboss.as.jpa] (ServerService Thread Pool -- 2) loaded persistence provider adapter org.jboss.as.jpa.hibernate:4
+20:32:47,793 INFO  [org.xnio] (MSC service thread 1-3) XNIO Version 3.0.7.GA-redhat-1
+20:32:47,802 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.0.7.GA-redhat-1
+20:32:47,807 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+20:32:47,812 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 3.2.16.GA-redhat-1
+20:32:47,942 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 35) JBAS012605: Activated the following JSF Implementations: [main, 1.2]
+20:32:47,950 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 42) JBAS013171: Activating Security Subsystem
+20:32:47,956 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 37) JBAS011800: Activating Naming Subsystem
+20:32:47,961 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 46) JBAS015537: Activating WebServices Extension
+20:32:48,022 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 29) JBAS010280: Activating Infinispan subsystem.
+20:32:48,086 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-3) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.17.Final-redhat-1)
+20:32:48,133 INFO  [org.jboss.as.security] (MSC service thread 1-3) JBAS013170: Current PicketBox version=4.0.17.Final-redhat-1
+20:32:49,394 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 25) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.2)
+20:32:49,475 INFO  [org.jboss.as.naming] (MSC service thread 1-3) JBAS011802: Starting Naming Service
+20:32:49,478 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+20:32:49,648 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.1.3.Final-redhat-3
+20:32:50,170 INFO  [org.apache.coyote.http11] (MSC service thread 1-6) JBWEB003001: Coyote HTTP/1.1 initializing on : http-localhost/127.0.0.1:8080
+20:32:50,174 INFO  [org.apache.coyote.http11] (MSC service thread 1-6) JBWEB003000: Coyote HTTP/1.1 starting on: http-localhost/127.0.0.1:8080
+20:32:50,232 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory /home/kroberts/Programs/jbdevstudio/runtimes/jboss-eap/standalone/deployments
+20:32:50,243 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on 127.0.0.1:9999
+20:32:50,243 INFO  [org.jboss.as.remoting] (MSC service thread 1-8) JBAS017100: Listening on 127.0.0.1:4447
+20:32:50,566 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:jboss/datasources/CloudConsolePSQLDS]
+20:32:50,579 INFO  [org.apache.coyote.http11] (MSC service thread 1-3) JBWEB003001: Coyote HTTP/1.1 initializing on : http-localhost/127.0.0.1:8443
+20:32:50,580 INFO  [org.apache.coyote.http11] (MSC service thread 1-3) JBWEB003000: Coyote HTTP/1.1 starting on: http-localhost/127.0.0.1:8443
+20:32:50,618 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (JCA PoolFiller) IJ000610: Unable to fill pool: javax.resource.ResourceException: Could not create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:282)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:240)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.createConnectionEventListener(SemaphoreArrayListManagedConnectionPool.java:781) [ironjacamar-core-impl-1.0.17.Final-redhat-1.jar:1.0.17.Final-redhat-1]
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.fillToMin(SemaphoreArrayListManagedConnectionPool.java:725) [ironjacamar-core-impl-1.0.17.Final-redhat-1.jar:1.0.17.Final-redhat-1]
+	at org.jboss.jca.core.connectionmanager.pool.mcp.PoolFiller.run(PoolFiller.java:97) [ironjacamar-core-impl-1.0.17.Final-redhat-1.jar:1.0.17.Final-redhat-1]
+	at java.lang.Thread.run(Thread.java:744) [rt.jar:1.7.0_45]
+Caused by: org.postgresql.util.PSQLException: Connection refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:207)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:136)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:31)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:254)
+	... 5 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) [rt.jar:1.7.0_45]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339) [rt.jar:1.7.0_45]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200) [rt.jar:1.7.0_45]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182) [rt.jar:1.7.0_45]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) [rt.jar:1.7.0_45]
+	at java.net.Socket.connect(Socket.java:579) [rt.jar:1.7.0_45]
+	at java.net.Socket.connect(Socket.java:528) [rt.jar:1.7.0_45]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:60)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:101)
+	... 14 more
+
+20:32:50,750 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+20:32:50,751 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+20:32:50,751 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.1.0.GA (AS 7.2.0.Final-redhat-8) started in 7309ms - Started 124 of 178 services (53 services are passive or on-demand)
+20:33:15,625 INFO  [org.apache.coyote.http11] (MSC service thread 1-5) JBWEB003075: Coyote HTTP/1.1 pausing on: http-localhost/127.0.0.1:8080
+20:33:15,626 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010409: Unbound data source [java:jboss/datasources/CloudConsolePSQLDS]
+20:33:15,627 INFO  [org.apache.coyote.http11] (MSC service thread 1-5) JBWEB003077: Coyote HTTP/1.1 stopping on : http-localhost/127.0.0.1:8080
+20:33:15,633 INFO  [org.apache.coyote.http11] (MSC service thread 1-1) JBWEB003075: Coyote HTTP/1.1 pausing on: http-localhost/127.0.0.1:8443
+20:33:15,648 INFO  [org.apache.coyote.http11] (MSC service thread 1-1) JBWEB003077: Coyote HTTP/1.1 stopping on : http-localhost/127.0.0.1:8443
+20:33:15,670 INFO  [org.apache.catalina.core] (MSC service thread 1-3) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+20:33:15,686 INFO  [org.jboss.as] (MSC service thread 1-8) JBAS015950: JBoss EAP 6.1.0.GA (AS 7.2.0.Final-redhat-8) stopped in 44ms

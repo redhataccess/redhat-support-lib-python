@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<report xmlns="http://www.redhat.com/gss/strata">
+    <binding name="system" value="('Linux', 'f17.mbp.net', '3.5.2-1.fc17.x86_64', '#1 SMP Wed Aug 15 16:09:27 UTC 2012', 'x86_64')"/>
+    <binding name="uid" value="0"/>
+    <binding name="reason" value="Process /usr/libexec/kde4/drkonqi was killed by signal 6 (SIGABRT)"/>
+    <binding name="username" value="root
+"/>
+    <binding name="executable" value="/usr/libexec/kde4/drkonqi"/>
+    <binding name="var_log_messages" value="Jul 10 21:30:32 f17kde64 abrt[1921]: Saved core dump of pid 1920 (/usr/libexec/kde4/drkonqi) to /var/spool/abrt/ccpp-2012-07-10-21:30:32-1920 (7159808 bytes)
+"/>
+    <binding name="kernel" value="3.4.4-5.fc17.x86_64"/>
+    <binding name="package" value="kde-runtime-4.8.4-2.fc17"/>
+    <binding name="architecture" value="x86_64"/>
+    <binding name="analyzer" value="CCpp"/>
+    <binding name="time" value="1341919832"/>
+    <binding name="core_backtrace" value="a4ec59d7fc9c453fb4287d7ebc5fcf6579792e65 0x35965 raise libc.so.6 -
+a4ec59d7fc9c453fb4287d7ebc5fcf6579792e65 0x37118 abort libc.so.6 -
+26684bcb047791e0142dc37216a3e7effad04ffb 0x71234 qt_message_output(QtMsgType, libQtCore.so.4 -
+e10fea1727f1a4d72d218923f68651eb3bfaaacb 0x16c036 - libkdeui.so.5 -
+e10fea1727f1a4d72d218923f68651eb3bfaaacb 0x247fe7 - libkdeui.so.5 -
+e10fea1727f1a4d72d218923f68651eb3bfaaacb 0x248fb8 KApplication::KApplication(bool) libkdeui.so.5 -
+f58e9cca4e7ef4cc8c37d20907e35be293390f4a 0x1352b - [exe] -
+"/>
+    <binding name="pwd" value="/proc"/>
+    <binding name="hostname" value="f17kde64"/>
+    <binding name="pid" value="1920"/>
+    <binding name="os_release" value="Fedora release 17 (Beefy Miracle)"/>
+    <binding name="abrt_version" value="2.0.10"/>
+    <binding name="cgroup" value="9:perf_event:/
+8:blkio:/
+7:net_cls:/
+6:freezer:/
+5:devices:/
+4:memory:/
+3:cpuacct,cpu:/
+2:cpuset:/
+1:name=systemd:/user/twalsh/1
+"/>
+    <binding name="component" value="kde-runtime"/>
+    <binding name="count" value="1"/>
+    <binding name="uuid" value="fbdb88a7d38fc8990f3222e0709308baceff8ed2"/>
+    <binding name="cmdline" value="/usr/libexec/kde4/drkonqi -display :0 --appname kompare --apppath /usr/bin --signal 6 --pid 1917 --appversion 4.1.1 --programname Kompare --bugaddress submit@bugs.kde.org --startupid 0"/>
+    <binding name="open_fds" value="0:/dev/pts/1
+pos:	0
+flags:	0102002
+1:/dev/pts/1
+pos:	0
+flags:	0102002
+2:/dev/pts/1
+pos:	0
+flags:	0102002
+3:anon_inode:[eventfd]
+pos:	0
+flags:	02004002
+4:pipe:[23452]
+pos:	0
+flags:	02004000
+5:pipe:[23452]
+pos:	0
+flags:	02004001
+6:socket:[23453]
+pos:	0
+flags:	02004002
+"/>
+    <binding name="limits" value="Limit                     Soft Limit           Hard Limit           Units     
+Max cpu time              unlimited            unlimited            seconds   
+Max file size             unlimited            unlimited            bytes     
+Max data size             unlimited            unlimited            bytes     
+Max stack size            8388608              unlimited            bytes     
+Max core file size        0                    unlimited            bytes     
+Max resident set          unlimited            unlimited            bytes     
+Max processes             1024                 7770                 processes 
+Max open files            1024                 4096                 files     
+Max locked memory         65536                65536                bytes     
+Max address space         unlimited            unlimited            bytes     
+Max file locks            unlimited            unlimited            locks     
+Max pending signals       7770                 7770                 signals   
+Max msgqueue size         819200               819200               bytes     
+Max nice priority         0                    0                    
+Max realtime priority     0                    0                    
+Max realtime timeout      unlimited            unlimited            us        
+"/>
+    <binding type="binary" name="maps" value="content/maps" fileName="maps"/>
+    <binding type="binary" name="coredump" value="content/coredump" fileName="coredump"/>
+    <binding type="binary" name="environ" value="content/environ" fileName="environ"/>
+    <binding type="binary" name="dso_list" value="content/dso_list" fileName="dso_list"/>
+</report>
+

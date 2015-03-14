@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<report xmlns="http://www.redhat.com/gss/strata">
+    <binding type="text" name="summary">Exception: This failure intentionally triggered</binding>
+</report>

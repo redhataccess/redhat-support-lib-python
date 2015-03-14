@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Author: Keith Robertson <kroberts@redhat.com> -->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.redhat.com/gss/strata"
+	xmlns:tns="http://www.redhat.com/gss/strata" elementFormDefault="qualified">
+     <element name="report">
+		<complexType>
+            <sequence>
+                <element ref="tns:binding" minOccurs="1" maxOccurs="unbounded"/>
+            </sequence>		
+		</complexType>
+    </element> 
+    <element name="binding">
+    	<complexType>
+		  <simpleContent>
+		   	<extension base="string">
+    		<attribute name="name"           use="required"/>
+    		<attribute name="type"           use="required"/>
+    		<attribute name="value"          use="optional"/>   
+    		<attribute name="fileName"       use="optional"/>
+            <attribute name="href"           use="optional"/>
+		   </extension>
+		  </simpleContent> 
+    	</complexType>    
+    </element>
+</schema>
