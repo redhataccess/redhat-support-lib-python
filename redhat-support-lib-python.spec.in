@@ -1,15 +1,12 @@
-%global         package_version @PACKAGE_VERSION@
-%global         package_name @PACKAGE_NAME@
-
-Name:           %{package_name}
-Version:        @PACKAGE_RPM_VERSION@
-Release:        @PACKAGE_RPM_RELEASE@%{?release_suffix}%{?dist}
+Name:           redhat-support-lib-python
+Version:        [?]
+Release:        1%{?dist}
 Summary:        Red Hat Support Software Development Library
 Vendor:         Red Hat, Inc.
 Group:          Development/Libraries
 License:        ASL 2.0
 URL:            https://api.access.redhat.com
-Source0:        http://people.redhat.com/kroberts/projects/redhat-support-lib/%{package_name}-%{package_version}.tar.gz
+Source0:        http://people.redhat.com/kroberts/projects/redhat-support-lib/%{name}-%{version}.tar.gz
 
 BuildRequires: python-setuptools
 BuildArch: noarch
@@ -46,21 +43,18 @@ support case creation, attach files to support cases, view the status of
 support cases, entitlement viewing, etc.
 
 %prep
-%setup -q -n %{package_name}-%{package_version}
+%setup -q -n %{name}
 
 %build
-%configure \
-        --docdir="%{_docdir}/%{package_name}-%{version}" \
-        --disable-python-syntax-check
+%{__python} setup.py build
 
 make %{?_smp_mflags}
 
 %install
-rm -rf "%{buildroot}"
-make %{?_smp_mflags} install DESTDIR="%{buildroot}"
+%{__python} setup.py install -01 --skip-build --root %{buildroot}
 
 %files
-%doc AUTHORS README
+%doc AUTHORS LICENSE README
 %{python_sitelib}/redhat_support_lib/
 
 %changelog
