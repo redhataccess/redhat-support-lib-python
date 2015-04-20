@@ -6,11 +6,7 @@ import sys
 
 version_info = {
     'name': 'redhat-support-lib-python',
-<<<<<<< HEAD
-    'version': '1',
-=======
     'version': '1.2.3',
->>>>>>> Back out autotools in favor of pure setup.py
     'description': 'Red Hat Support Software Development Library',
     'author': 'Keith Robertson',
     'author_email': 'kroberts@redhat.com',
