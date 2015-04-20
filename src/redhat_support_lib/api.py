@@ -38,14 +38,15 @@ from redhat_support_lib.infrastructure.brokers import search
 from redhat_support_lib.utils import reporthelper
 import redhat_support_lib.utils.confighelper as confighelper
 from redhat_support_lib.xml import report
-import redhat_support_lib.version as version
+import pkg_resources
 import logging
 
 
 __author__ = 'Keith Robertson <kroberts@redhat.com>'
 
 STREAM_LOG_FORMAT = '%(levelname)s: %(message)s'
-USER_AGENT = 'redhat-support-lib-%s' % (version.version)
+USER_AGENT = 'redhat-support-lib-%s' % \
+    (pkg_resources.get_distribution("redhat-support-lib-python").version)
 
 logger = logging.getLogger("redhat_support_lib.infrastructure.proxy")
 

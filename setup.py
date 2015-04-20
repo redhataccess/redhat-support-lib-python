@@ -6,7 +6,7 @@ import sys
 
 version_info = {
     'name': 'redhat-support-lib-python',
-    'version': '1.2.3',
+    'version': '2',
     'description': 'Red Hat Support Software Development Library',
     'author': 'Keith Robertson',
     'author_email': 'kroberts@redhat.com',
