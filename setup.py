@@ -1,12 +1,9 @@
-from distutils.command.build import build
-from setuptools import setup, Command
-import os
-import sys
+from setuptools import setup, find_packages
 
 
 version_info = {
     'name': 'redhat-support-lib-python',
-    'version': '2',
+    'version': '1.2.3',
     'description': 'Red Hat Support Software Development Library',
     'author': 'Keith Robertson',
     'author_email': 'kroberts@redhat.com',
@@ -24,10 +21,7 @@ version_info = {
 
 setup(
     package_dir={'': 'src'},
-    packages=['redhat_support_lib.infrastructure',
-              'redhat_support_lib.utils',
-              'redhat_support_lib.web',
-              'redhat_support_lib.xml'],
+    packages=find_packages("src"),
     py_modules=['redhat_support_lib.api'],
     install_requires=['lxml > 2.0',
                       'rpm-python',

@@ -2,10 +2,11 @@
 .pydevproject
 .project
 
-redhat-support-lib-python.spec
 redhat-support-lib-python*.tar.gz
 src/redhat-support-tool
-Makefile
+srt/redhat_support_lib_python.egg-info
+build
+dist
 
 tmp.*
 *.pyc
